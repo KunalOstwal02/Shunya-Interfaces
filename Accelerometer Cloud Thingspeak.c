@@ -24,11 +24,11 @@ int main()
 			thingSpeakSetField(3, z);
 
 			thingSpeakWriteFields();
+		
+			printf("X pin : %d\n",x);
+			printf("Y pin : %d\n",y);
+			printf("Z pin : %d\n",z);
 			delay(30000);
-
-
-
-
 
 		}
 
